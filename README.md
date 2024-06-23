@@ -60,11 +60,6 @@ This example demonstrates how to create a Virtual Private Cloud (VPC) that can b
    - **Desired Capacity**:
      - Set the desired size of the Auto Scaling group by adjusting the desired capacity.
 
-## Security Groups
-
-- **Public Subnet Security Group**: Allows HTTP and HTTPS traffic from the internet to the load balancer.
-- **Private Subnet Security Group**: Allows traffic from the load balancer to the EC2 instances.
-
 ### Accessing Instances in Private Subnets Using a Bastion Server (Jump Server)
 
 Instances in private subnets cannot connect to the internet directly. To enable secure access, I have used the concept of a **Bastion Server or Jump Server**. Here's how to set it up:
