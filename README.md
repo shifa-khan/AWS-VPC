@@ -7,7 +7,8 @@ This example demonstrates how to create a Virtual Private Cloud (VPC) that can b
 
 ## Architecture Overview
 
-![Architecture Diagram](architecture-diagram.png)  <!-- Add your architecture diagram here -->
+![Architecture Diagram](./architecture.png)
+
 
 ## Components
 
